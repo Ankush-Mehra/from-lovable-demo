@@ -17,3 +17,10 @@ The workflow:
 7. Deploys to GitHub Pages
 
 You can also manually trigger this workflow from the "Actions" tab in your GitHub repository.
+
+### Versions
+- Uses actions/checkout@v4
+- Uses actions/setup-node@v4
+- Uses actions/configure-pages@v4
+- Uses actions/upload-pages-artifact@v3
+- Uses actions/deploy-pages@v4
